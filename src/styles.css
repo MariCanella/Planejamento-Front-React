@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-wrapper {
+  display: flex;
+}
+
+.container {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-left: 30px;
+  width: 400px; 
+  padding: 20px;
+}
+
+
+.title {
+  background-color: #004BA3;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid black;
+}
+
+.info {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.info h2 {
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin: 0;
+}
+
+.cep-search {
+  display: flex;
+  margin-top: 10px;
+}
+
+.cep-search input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.cep-search button {
+  padding: 5px;
+  background-color: #ccc;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.cep-search button:hover {
+  background-color: #999;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
